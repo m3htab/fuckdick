@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+truct ContentView: View {
     var body: some View {
         Text("Hello")
     }

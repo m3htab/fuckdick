@@ -13,6 +13,12 @@
 		B0DB391B24EC369400B9FF4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0DB391A24EC369400B9FF4E /* Assets.xcassets */; };
 		B0DB391E24EC369400B9FF4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0DB391D24EC369400B9FF4E /* Preview Assets.xcassets */; };
 		B0DB392124EC369400B9FF4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0DB391F24EC369400B9FF4E /* LaunchScreen.storyboard */; };
+		B0F4422E24ED6D1900490181 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4422924ED6D1900490181 /* HomeView.swift */; };
+		B0F4422F24ED6D1900490181 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4422A24ED6D1900490181 /* CreateView.swift */; };
+		B0F4423024ED6D1900490181 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4422B24ED6D1900490181 /* ActivityView.swift */; };
+		B0F4423124ED6D1900490181 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4422C24ED6D1900490181 /* MessagesView.swift */; };
+		B0F4423224ED6D1900490181 /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4422D24ED6D1900490181 /* mainView.swift */; };
+		B0F4423424ED6D4100490181 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4423324ED6D4100490181 /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		B0DB391D24EC369400B9FF4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B0DB392024EC369400B9FF4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0DB392224EC369400B9FF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0F4422924ED6D1900490181 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = "../../xcode imports/attachments/HomeView.swift"; sourceTree = "<group>"; };
+		B0F4422A24ED6D1900490181 /* CreateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateView.swift; path = "../../xcode imports/attachments/CreateView.swift"; sourceTree = "<group>"; };
+		B0F4422B24ED6D1900490181 /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActivityView.swift; path = "../../xcode imports/attachments/ActivityView.swift"; sourceTree = "<group>"; };
+		B0F4422C24ED6D1900490181 /* MessagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessagesView.swift; path = "../../xcode imports/attachments/MessagesView.swift"; sourceTree = "<group>"; };
+		B0F4422D24ED6D1900490181 /* mainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mainView.swift; path = "../../xcode imports/attachments/mainView.swift"; sourceTree = "<group>"; };
+		B0F4423324ED6D4100490181 /* UserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserView.swift; path = "../../xcode imports/attachments/UserView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,12 @@
 			children = (
 				B0DB391424EC369100B9FF4E /* AppDelegate.swift */,
 				B0DB391624EC369100B9FF4E /* SceneDelegate.swift */,
+				B0F4422B24ED6D1900490181 /* ActivityView.swift */,
+				B0F4422A24ED6D1900490181 /* CreateView.swift */,
+				B0F4422924ED6D1900490181 /* HomeView.swift */,
+				B0F4423324ED6D4100490181 /* UserView.swift */,
+				B0F4422D24ED6D1900490181 /* mainView.swift */,
+				B0F4422C24ED6D1900490181 /* MessagesView.swift */,
 				B0DB391824EC369100B9FF4E /* ContentView.swift */,
 				B0DB391A24EC369400B9FF4E /* Assets.xcassets */,
 				B0DB391F24EC369400B9FF4E /* LaunchScreen.storyboard */,
@@ -147,8 +165,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0DB391524EC369100B9FF4E /* AppDelegate.swift in Sources */,
+				B0F4423224ED6D1900490181 /* mainView.swift in Sources */,
+				B0F4422E24ED6D1900490181 /* HomeView.swift in Sources */,
 				B0DB391724EC369100B9FF4E /* SceneDelegate.swift in Sources */,
 				B0DB391924EC369100B9FF4E /* ContentView.swift in Sources */,
+				B0F4423124ED6D1900490181 /* MessagesView.swift in Sources */,
+				B0F4422F24ED6D1900490181 /* CreateView.swift in Sources */,
+				B0F4423424ED6D4100490181 /* UserView.swift in Sources */,
+				B0F4423024ED6D1900490181 /* ActivityView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = methab.appWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +340,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = methab.appWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
